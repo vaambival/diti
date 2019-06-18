@@ -29,6 +29,10 @@ public class HighLevelArray {
         throw new UnsupportedOperationException("Not implemented!");
     }
 
+    /**
+     * Удаляем элемент из массива по указанной позиции
+     * @param pos позиция, с которой будет удален элемент
+     */
     private void removeElem(int pos) {
         if (pos < 0 || pos >= numbers.length) {
             throw new IndexOutOfBoundsException(

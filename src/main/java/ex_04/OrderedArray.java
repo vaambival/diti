@@ -64,7 +64,7 @@ public class OrderedArray {
     }
 
     /**
-     * Метод удаления дубликатов из массивов
+     * Метод удаления дубликатов из массива
      */
     public void removeDuplicates() {
         throw new UnsupportedOperationException("Not implemented!");
