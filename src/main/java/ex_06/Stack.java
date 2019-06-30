@@ -1,4 +1,4 @@
-package ex_02;
+package ex_06;
 
 public interface Stack<T> {
     boolean push(T elem);
@@ -9,5 +9,5 @@ public interface Stack<T> {
 
     boolean isEmpty();
 
-    boolean isFull();
+    int size();
 }
